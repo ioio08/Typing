@@ -1,0 +1,58 @@
+body {
+  padding-top: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  position: relative;
+}
+
+#target {
+  width: 600px;
+  margin: 0 auto 2em;
+
+  border: 3px solid gray;
+  padding: 1.5em 1em;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+
+
+  .style {
+    color: red;
+  }
+}
+
+#result {
+  font-size: 20px;
+}
+
+#reset {
+  font-size: 16px;
+  width: 100px;
+  padding: 1.2em 1em;
+  background: black;
+  color: white;
+  border: 3px solid rgb(189, 187, 187);
+  border-radius: 5px;
+  box-shadow: 0 10px 0 rgb(68, 68, 68);
+  cursor: pointer;
+  user-select: none;
+
+  position: absolute;
+  top: 210px;
+  left: 310px;
+
+  &:hover {
+    background: rgb(90, 90, 90);
+    margin-top: 0.2em;
+    box-shadow: 0 8px 0 rgb(68, 68, 68);
+  }
+
+  &:active {
+    box-shadow: 0 4px 0 rgb(68, 68, 68);
+    margin-top: 0.5em;
+  }
+
+}
+
+.hidden {
+  display: none;
+}
