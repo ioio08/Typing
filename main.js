@@ -11,6 +11,7 @@
     while (target.firstChild) {
       target.removeChild(target.firstChild);
     };
+
     for (let i = 0; i < word.length; i++) {
       let span = document.createElement('span');
       target.appendChild(span);
@@ -29,14 +30,14 @@
 
   const words = [
     'pink',
-    // 'red',
-    // 'blue',
-    // 'yellow',
-    // 'green',
-    // 'orange',
-    // 'gray',
-    // 'black',
-    // 'white',
+    'red',
+    'blue',
+    'yellow',
+    'green',
+    'orange',
+    'gray',
+    'black',
+    'white',
   ];
   let word;
   let loc;
@@ -70,10 +71,6 @@
     if (e.key !== word[loc]) {
       return;
     }
-
-    // ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
-    // カスタマイズ  ここから
-    // ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
 
     let spanStyle = document.getElementsByClassName('style' + loc);
     spanStyle[0].style.color = 'red';
