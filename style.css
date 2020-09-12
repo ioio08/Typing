@@ -5,6 +5,16 @@ body {
   position: relative;
 }
 
+a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  padding: 1em 1.4em;
+  color: white;
+}
+
 #target {
   width: 600px;
   margin: 0 auto 2em;
@@ -43,15 +53,7 @@ body {
   left: 310px;
 }
 
-a {
-  text-decoration: none;
-  text-align: center;
-  display: block;
-  height: 50px;
-  line-height: 50px;
-  padding: 1em 1.4em;
-  color: white;
-}
+
 
 #reset:hover {
   background: #5a5a5a;
