@@ -43,7 +43,7 @@ body {
   left: 310px;
 }
 
-#reset a {
+a {
   text-decoration: none;
   text-align: center;
   display: block;
