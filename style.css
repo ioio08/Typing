@@ -25,10 +25,10 @@ body {
 #reset {
   font-size: 16px;
   width: 100px;
-  padding: 1.2em 1em;
+  text-align: center;
   background: black;
   color: white;
-  border: 3px solid #bdbbbb;
+  border: 2px solid #bdbbbb;
   border-radius: 5px;
   -webkit-box-shadow: 0 10px 0 #444444;
           box-shadow: 0 10px 0 #444444;
@@ -37,9 +37,20 @@ body {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  padding: 0.2em 1.2em;
   position: absolute;
   top: 210px;
   left: 310px;
+}
+
+#reset a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  padding: 1em 1.4em;
+  color: white;
 }
 
 #reset:hover {
