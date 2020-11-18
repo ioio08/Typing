@@ -7,11 +7,11 @@
 
 ## 使用言語
 
- - HTML<img style="width:15px; margin-left:10px;" src="https://cdn.svgporn.com/logos/html-5.svg">
+ - <span style="margin-right:10px">HTML</span> <img width= '15px'  src="https://cdn.svgporn.com/logos/html-5.svg">
 
- - SCSS<img style="width:20px; margin-left:10px;" src="https://cdn.svgporn.com/logos/sass.svg">
+ - <span style="margin-right:10px">SCSS</span><img width= '20px'  src="https://cdn.svgporn.com/logos/sass.svg">
 
- - JavaScript<img style="width:15px; margin-left:10px;" src="https://cdn.svgporn.com/logos/javascript.svg">
+ - <span style="margin-right:10px">JavaScript</span><img width= '15px'  src="https://cdn.svgporn.com/logos/javascript.svg">
 
  ## アプリ概要
 
