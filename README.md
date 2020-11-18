@@ -48,7 +48,8 @@ for (let i = 0; i < word.length; i++) {
 
 ### 2.  Typeの正誤判断で処理分岐(/main.js L54 ~ 63)
 
-#### if構文によってTypeの正誤によって処理を分岐させている。(true:正解した文字色を赤に + 次の文字に進む、false: 何も処理を行わない)
+#### if構文によってTypeの正誤によって処理を分岐させている。
+#### (true:正解した文字色を赤に + 次の文字に進む、false: 何も処理を行わない)
 ```
 document.addEventListener('keydown', event => {
 
