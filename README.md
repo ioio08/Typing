@@ -7,22 +7,22 @@
 
 ## 使用言語
 
- -  HTML　<img width= '18px'  src="https://cdn.svgporn.com/logos/html-5.svg">
+ -  HTML　<img width= '20px'  src="https://cdn.svgporn.com/logos/html-5.svg">
 
- -  SCSS　<img width= '25px'  src="https://cdn.svgporn.com/logos/sass.svg">
+ -  SCSS　<img width= '30px'  src="https://cdn.svgporn.com/logos/sass.svg">
 
  -  JavaScript　<img width= '25px'  src="https://cdn.svgporn.com/logos/javascript.svg">
 
  ## アプリ概要
 
-目的：if構文,for構文,while構文など、条件付きの処理の理解を深めるために作成
+目的：if構文、for構文、while構文など、条件付きの処理の理解を深めるために作成
 
 構成：
 1. 課題となる文字が表示される
 1. 表示された文字に応じてKeyboardをTypeし、その正誤に応じて処理（正：次の文字に進む、誤：次に進めない）
 1. 全文字Type後、経過時間を表示
 
-詳細：if,for,whileといった処理の流れ決める構文だけでなく、配列や変数、文字列の指定をして処理実装を行うなど、より詳細な処理設定も行っています。( 例)文字数で紐づけてTypeした文字との正誤判定、正解した単語を赤く変化させるなど )
+詳細：if、for、whileといった処理の流れ決める構文だけでなく、配列や変数、文字列の指定をして処理実装を行うなど、より詳細な処理設定も行っています。( 例)文字数で紐づけてTypeした文字との正誤判定、正解した単語を赤く変化させるなど )
 
 ## 出来る事
 
