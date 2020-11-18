@@ -28,44 +28,18 @@ a {
   color: red;
 }
 
-#result {
-  font-size: 20px;
-}
-
 #reset {
-  font-size: 16px;
-  width: 100px;
+  font-size: 25px;
+  width: 52%;
   text-align: center;
   background: black;
   color: white;
   border: 2px solid #bdbbbb;
   border-radius: 5px;
-  -webkit-box-shadow: 0 10px 0 #444444;
-          box-shadow: 0 10px 0 #444444;
-  cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
   padding: 0.2em 1.2em;
   position: absolute;
   top: 210px;
-  left: 310px;
-}
-
-
-
-#reset:hover {
-  background: #5a5a5a;
-  margin-top: 0.2em;
-  -webkit-box-shadow: 0 8px 0 #444444;
-          box-shadow: 0 8px 0 #444444;
-}
-
-#reset:active {
-  -webkit-box-shadow: 0 4px 0 #444444;
-          box-shadow: 0 4px 0 #444444;
-  margin-top: 0.5em;
+  left: 245px;
 }
 
 .hidden {
