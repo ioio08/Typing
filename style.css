@@ -5,16 +5,6 @@ body {
   position: relative;
 }
 
-a {
-  text-decoration: none;
-  text-align: center;
-  display: block;
-  height: 50px;
-  line-height: 50px;
-  padding: 1em 1.4em;
-  color: white;
-}
-
 #target {
   width: 600px;
   margin: 0 auto 2em;
@@ -36,7 +26,7 @@ a {
   color: white;
   border: 2px solid #bdbbbb;
   border-radius: 5px;
-  padding: 0.2em 1.2em;
+  padding: 1.2em 1.2em;
   margin: 0 auto;
 }
 
