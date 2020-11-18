@@ -37,9 +37,7 @@ a {
   border: 2px solid #bdbbbb;
   border-radius: 5px;
   padding: 0.2em 1.2em;
-  position: absolute;
-  top: 210px;
-  left: 245px;
+  margin: 0 auto;
 }
 
 .hidden {
